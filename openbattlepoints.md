@@ -10,9 +10,14 @@ How to build an unit for a squad.
 
 Unit is armed with up to 2 weapons.
 
-### Formulas
-#### Base Cost
+Base Multiplier:
+|Base Cost    | 0 - 10 | 11 - 15 | 15+ |
+|:-:          |:-:     |:-:      |:-:  |
+|Value        | 1      | 1.5     | (cost * 0.1) |
 
+### Formulas
+#### Total Cost
+[ (Initial Cost = 1) + ( (sum of RC) + (sum of CC) + (sum of T) + (sum of HP) + (sum of CS) + (sum of M) ) ] * (Base Multipler)
 
 ### Attributes
 #### Ranged Combat (RC)
@@ -41,7 +46,7 @@ Highest value is a 2+
 |Attribute  | Dst | A   | S   | SM  |
 |:-:        |:-:  |:-:  |:-:  |:-:  |
 |Value      | 0   | 0   | 0   | 0   |
-|Point Cost |00.10|01.00|01.00|01.00|
+|Point Cost |00.10|00.50|00.50|01.00|
 
 ### Distance (Dst)
 00.10 for every Inch.
