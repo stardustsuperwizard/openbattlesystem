@@ -2,64 +2,60 @@
 How to build an unit for a squad.
 
 ## Base Unit
-|Attribute  | RC  | CC  | T   | HP  | CS  | M   |
-|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Value      | 0   | 0   | 2   | 1   | 0   | 6   |
-|Point Cost |00.00|00.00|00.50|00.50|00.00|01.00|
+|Attribute    s| RC  | CC  | T   | HP  | CS  | M   |
+|:-:          |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Value        | 0   | 0   | 2   | 1   | 0   | 0   |
+|Initial Cost |00.00|00.00|00.50|00.50|00.00|00.00|
+|Modifier Cost|00.25|00.25|01.00|01.00|01.00|00.25|
 
 Unit is armed with up to 2 weapons.
 
-### Ranged Combat (RC)
-|Value      | 6+  | 5+  | 4+  | 3+  | 2+  |
-|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Point Cost |00.25|00.50|01.00|02.00|04.00|
+### Formulas
+#### Base Cost
 
-### Close Combat (CC)
-|Value      | 6+  | 5+  | 4+  | 3+  | 2+  |
-|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Point Cost |00.25|00.50|01.00|02.00|04.00|
-### Toughness (T)
-|Value      | 3+  | 4+  | 5+  | 6+  | 7+  |
-|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Point Cost |00.25|00.75|01.75|02.50|04.00|
 
-### Hit Points (HP)
-|Value      | 2   | 3   | 4   | 5   | 6   |
+### Attributes
+#### Ranged Combat (RC)
+|Values     | 6+  | 5+  | 4+  | 3+  | 2+  |
 |:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Point Cost |02.00|04.00|05.00|06.00|07.00|
 
-### Combat Save (CS)
-|Value      | 6+  | 5+  | 4+  | 3+  | 2+  |
+#### Close Combat (CC)
+|Values     | 6+  | 5+  | 4+  | 3+  | 2+  |
 |:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Point Cost |00.25|00.50|01.00|03.00|05.00|
 
-### Movement (M)
-00.20 for each additional inch, per movement type.
+#### Toughness (T)
+Minimum T is 2+
+
+#### Hit Points (HP)
+Minimum HP is 1
+
+#### Combat Save (CS)
+Highest value is a 2+
+|Values     | 6+  | 5+  | 4+  | 3+  | 2+  |
+|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+
+#### Movement (M)
+00.25 for each additional inch.
 
 ## Weapons
 |Attribute  | Dst | A   | S   | SM  |
 |:-:        |:-:  |:-:  |:-:  |:-:  |
 |Value      | 0   | 0   | 0   | 0   |
-|Point Cost |00.00|00.00|00.00|00.00|
+|Point Cost |00.10|01.00|01.00|01.00|
 
 ### Distance (Dst)
 00.10 for every Inch.
 After 12" have been added that weapon may no longer be used in Close Combat.
 
 ### Attacks (A)
-|Value      | 1   | 2   | 3   | 4   | 5   |
-|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Point Cost |01.00|01.50|03.00|04.00|05.00|
+
 
 ### Strength (S)
-|Value      | 1   | 2   | 3   | 4   | 5   |
-|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Point Cost |01.00|01.50|03.00|04.00|05.00|
+
 
 ### Save Modifier (SM)
-|Value      | -1  | -2  | -3  | -4  | -5  |
+|Values     | -1  | -2  | -3  | -4  | -5  |
 |:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Point Cost |01.00|01.50|03.00|04.00|05.00|
 
 ## Special Abilities
 ### Unit
