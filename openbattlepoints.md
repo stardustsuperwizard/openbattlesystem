@@ -46,7 +46,7 @@ Highest value is a 2+
 |Attribute  | Dst | A   | S   | SM  |
 |:-:        |:-:  |:-:  |:-:  |:-:  |
 |Value      | 0   | 0   | 0   | 0   |
-|Point Cost |00.10|01.00|01.00|01.00|
+|Point Cost |00.10|00.50|01.00|01.00|
 
 ### Distance (Dst)
 00.10 for every Inch.
@@ -100,6 +100,6 @@ After 12" have been added that weapon may no longer be used in Close Combat.
 
 ### Weapons
 #### Burst Shot
-* Cost: 01.00
+* Cost: 00.25
 * Stackable: No
 * Descrption: When target is within 1/2 distance or less, double the number of attacks.
