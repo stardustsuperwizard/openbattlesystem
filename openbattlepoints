@@ -1,0 +1,104 @@
+# Unit Creation
+How to build an unit for a squad.
+
+## Base Unit
+|Attribute  | RC  | CC  | T   | HP  | CS  | M   |
+|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Value      | 0   | 0   | 2   | 1   | 0   | 6   |
+|Point Cost |00.00|00.00|00.50|00.50|00.00|01.00|
+
+Unit is armed with up to 2 weapons.
+
+### Ranged Combat (RC)
+|Value      | 6+  | 5+  | 4+  | 3+  | 2+  |
+|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Point Cost |00.25|00.50|01.00|02.00|04.00|
+
+### Close Combat (CC)
+|Value      | 6+  | 5+  | 4+  | 3+  | 2+  |
+|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Point Cost |00.25|00.50|01.00|02.00|04.00|
+### Toughness (T)
+|Value      | 3+  | 4+  | 5+  | 6+  | 7+  |
+|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Point Cost |00.25|00.75|01.75|02.50|04.00|
+
+### Hit Points (HP)
+|Value      | 2   | 3   | 4   | 5   | 6   |
+|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Point Cost |02.00|04.00|05.00|06.00|07.00|
+
+### Combat Save (CS)
+|Value      | 6+  | 5+  | 4+  | 3+  | 2+  |
+|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Point Cost |00.25|00.50|01.00|03.00|05.00|
+
+### Movement (M)
+00.20 for each additional inch, per movement type.
+
+## Weapons
+|Attribute  | Dst | A   | S   | SM  |
+|:-:        |:-:  |:-:  |:-:  |:-:  |
+|Value      | 0   | 0   | 0   | 0   |
+|Point Cost |00.00|00.00|00.00|00.00|
+
+### Distance (Dst)
+00.10 for every Inch.
+After 12" have been added that weapon may no longer be used in Close Combat.
+
+### Attacks (A)
+|Value      | 1   | 2   | 3   | 4   | 5   |
+|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Point Cost |01.00|01.50|03.00|04.00|05.00|
+
+### Strength (S)
+|Value      | 1   | 2   | 3   | 4   | 5   |
+|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Point Cost |01.00|01.50|03.00|04.00|05.00|
+
+### Save Modifier (SM)
+|Value      | -1  | -2  | -3  | -4  | -5  |
+|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Point Cost |01.00|01.50|03.00|04.00|05.00|
+
+## Special Abilities
+### Unit
+#### Inspirational
+* Cost: 01.00
+* Stackable: Yes
+* Descrption: For each point taken, add +1 to the Morale roll.
+
+#### Regeneration
+* Cost: See chart
+
+|Value      | 6+  | 5+  | 4+  | 3+  | 2+  |
+|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Point Cost |02.00|03.00|05.00|10.00|20.00|
+* Stackable: Yes
+* Description: When taken, unit is able to roll to regain lost HP at the start of turn during Morale phase. Roll a die for each HP lost. Upon successful roll, HP is regained. If unit is dead/destroyed, do not remove from game. Instead, perform this check first. 
+
+#### Regroup
+* Cost: 01.00
+* Stackable: No
+* Description: When unit has status of fallback, unit will automatically regroup in Morale Phase.
+
+#### Deep Strike
+* Cost: 02.00
+* Stackable: No
+* Description: When a unit has this ability, it is able to setup in reserve and attempt to enter play via deep strike.
+
+#### Mob Rule
+* Cost: 01.00
+* Stackable: No
+* Description: Unit is now a rally point. Additionally, when a unit with the status of fallback comes within 2" of this unit and that unit also has "Mob Rule" the units will merge status will be "Normal"
+
+#### Rally to me
+* Cost: 01.00
+* Stackable: No
+* Description: Unit is now a rally point and when a friendly unit with the status of fallback comes within 6" of this unit, friendly unit will regroup in morale phase and will change status to normal.
+
+### Weapons
+#### Burst Shot
+* Cost: 01.00
+* Stackable: No
+* Descrption: When target is within 1/2 distance or less, double the number of attacks.
