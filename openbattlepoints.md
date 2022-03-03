@@ -46,7 +46,7 @@ Highest value is a 2+
 |Attribute  | Dst | A   | S   | SM  |
 |:-:        |:-:  |:-:  |:-:  |:-:  |
 |Value      | 0   | 0   | 0   | 0   |
-|Point Cost |00.10|00.50|00.50|01.00|
+|Point Cost |00.10|01.00|00.50|01.00|
 
 ### Distance (Dst)
 00.10 for every Inch.
