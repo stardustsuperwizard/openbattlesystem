@@ -42,13 +42,12 @@ Highest value is a 2+
 00.25 for each additional inch.
 
 ## Weapons
-|Attribute  | Dst | A   | S   | SM  |
-|:-:        |:-:  |:-:  |:-:  |:-:  |
-|Value      | 0   | 0   | 0   | 0   |
-|Point Cost |0.083|00.50|01.00|01.00|
+|Attribute     | Dst | A   | S   | SM  |
+|:-:           |:-:  |:-:  |:-:  |:-:  |
+|Value         | 0   | 0   | 0   | 0   |
+|modifier Cost |0.083|00.50|01.00|01.00|
 
 ### Distance (Dst)
-00.10 for every Inch.
 After 12" have been added that weapon may no longer be used in Close Combat.
 
 ### Attacks (A)
@@ -71,9 +70,9 @@ After 12" have been added that weapon may no longer be used in Close Combat.
 #### Regeneration
 * Cost: See chart
 
-|Value      | 6+  | 5+  | 4+  | 3+  | 2+  |
-|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Point Cost |02.00|03.00|05.00|10.00|20.00|
+|Value         | 6+  | 5+  | 4+  | 3+  | 2+  |
+|:-:           |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Modifier Cost |02.00|03.00|05.00|10.00|20.00|
 * Stackable: Yes
 * Description: When taken, unit is able to roll to regain lost HP at the start of turn during Morale phase. Roll a die for each HP lost. Upon successful roll, HP is regained. If unit is dead/destroyed, do not remove from game. Instead, perform this check first. 
 
