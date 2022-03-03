@@ -2,7 +2,7 @@
 How to build an unit for a squad.
 
 ## Base Unit
-|Attribute    s| RC  | CC  | T   | HP  | CS  | M   |
+|Attribute    | RC  | CC  | T   | HP  | CS  | M   |
 |:-:          |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |
 |Value        | 0   | 0   | 2   | 1   | 0   | 0   |
 |Initial Cost |00.00|00.00|00.50|00.50|00.00|00.00|
