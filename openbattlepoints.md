@@ -2,10 +2,10 @@
 How to build an unit for a squad.
 
 ## Base Unit
-|Attribute    | RC  | CC  | T   | HP  | CS  | M   |
-|:-:          |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Value        | 0   | 0   | 0   | 0   | 0   | 0   |
-|Modifier Cost|00.25|00.25|01.00|01.00|01.00|00.25|
+|Attribute    | RC  | CC  | T   | HP  | CS  | M   | Point Cost |
+|:-:          |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  | :-:        |
+|Initial Value| 0   | 0   | 2+  | 1   | 0   | 0   | 1          |
+|Modifier Cost|00.25|00.50|01.00|01.00|01.00|00.25| -          |
 
 Unit is armed with up to 2 weapons.
 
@@ -44,7 +44,7 @@ Highest value is a 2+
 ## Weapons
 |Attribute     | Dst | A   | S   | SM  | Point Cost |
 |:-:           |:-:  |:-:  |:-:  |:-:  |:-:         |
-|Initial Value | 0   | 1   | 0   | 0   | 1.         |
+|Initial Value | 0   | 1   | 0   | 0   | 1          |
 |modifier Cost |00.25|01.25|01.25|01.25| -          |
 
 ### Distance (Dst)
