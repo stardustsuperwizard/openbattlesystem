@@ -45,7 +45,7 @@ Highest value is a 2+
 |Attribute     | Dst | A   | S   | SM  |
 |:-:           |:-:  |:-:  |:-:  |:-:  |
 |Value         | 0   | 0   | 0   | 0   |
-|modifier Cost |0.083|00.50|01.00|01.00|
+|modifier Cost |00.05|01.25|01.25|01.25|
 
 ### Distance (Dst)
 After 12" have been added that weapon may no longer be used in Close Combat.
