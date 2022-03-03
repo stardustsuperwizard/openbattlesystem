@@ -42,10 +42,10 @@ Highest value is a 2+
 00.25 for each additional inch.
 
 ## Weapons
-|Attribute     | Dst | A   | S   | SM  |
-|:-:           |:-:  |:-:  |:-:  |:-:  |
-|Value         | 0   | 0   | 0   | 0   |
-|modifier Cost |00.05|01.25|01.25|01.25|
+|Attribute     | Dst | A   | S   | SM  | Point Cost |
+|:-:           |:-:  |:-:  |:-:  |:-:  |:-:         |
+|Initial Value | 0   | 1   | 0   | 0   | 1.         |
+|modifier Cost |00.25|01.25|01.25|01.25| -          |
 
 ### Distance (Dst)
 After 12" have been added that weapon may no longer be used in Close Combat.
