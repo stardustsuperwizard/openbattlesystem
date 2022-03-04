@@ -10,7 +10,7 @@ How to build an unit for a squad.
 Unit is armed with up to 2 weapons.
 
 Base Multiplier:
-|Base Cost    | 0 - 10 | 11 - 15 | 15+ |
+|Base Cost    | 0 - 10 | 11 - 15 | 16+ |
 |:-:          |:-:     |:-:      |:-:  |
 |Value        | 1      | 1.5     | (cost * 0.1) |
 
