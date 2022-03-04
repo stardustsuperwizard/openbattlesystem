@@ -44,21 +44,26 @@ Highest value is a 2+
 ## Weapons
 |Attribute     | Dst | A   | S   | SM  | Point Cost |
 |:-:           |:-:  |:-:  |:-:  |:-:  |:-:         |
-|Initial Value | 0   | 1   | 0   | 0   | 1          |
-|modifier Cost |00.25/6|01.25|01.25|01.25| -          |
+|Initial Value | 0   | 1   | 1   | 1   | 3          |
+|modifier Cost |00.25/6|01.25|01.50|Var| -          |
 
 ### Distance (Dst)
+Purchased in increments of 6"
+
 After more than 12" have been added that weapon may no longer be used in Close Combat.
 
 ### Attacks (A)
-
+Cannot be reduced to 0.
 
 ### Strength (S)
-
+May be reduced to 0 for a return of 1 Point.
 
 ### Save Modifier (SM)
+May be reduced to 0 for a return of 1 Point.
+
 |Values     | -1  | -2  | -3  | -4  | -5  |
 |:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Point Cost |01.00|02.50|06.25|16.00|40.00|           
 
 ## Special Abilities
 ### Unit
