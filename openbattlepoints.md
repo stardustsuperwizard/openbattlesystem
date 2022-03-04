@@ -5,7 +5,7 @@ How to build an unit for a squad.
 |Attribute    | RC  | CC  | T   | HP  | CS  | M   | Point Cost |
 |:-:          |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  | :-:        |
 |Initial Value| 0   | 0   | 2+  | 1   | 0   | 0   | 1          |
-|Modifier Cost|00.25|00.50|01.00|01.00|01.00|00.25| -          |
+|Modifier Cost|00.25|00.50|01.00|03.00|01.00|00.25| -          |
 
 Unit is armed with up to 2 weapons.
 
