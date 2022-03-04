@@ -47,6 +47,12 @@ Highest value is a 2+
 |Initial Value | 0   | 1   | 0   | 0   | 1          |
 |modifier Cost |00.25/6|01.25|01.25|01.25| -          |
 
+Base Multiplier:
+|Base Cost    | 0 - 10 | 11 - 15 | 15+ |
+|:-:          |:-:     |:-:      |:-:  |
+|Value        | 1      | 1.5     | (cost * 0.1) |
+
+
 ### Distance (Dst)
 After 12" have been added that weapon may no longer be used in Close Combat.
 
