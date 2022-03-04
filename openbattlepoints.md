@@ -54,7 +54,7 @@ Base Multiplier:
 
 
 ### Distance (Dst)
-After 12" have been added that weapon may no longer be used in Close Combat.
+After more than 12" have been added that weapon may no longer be used in Close Combat.
 
 ### Attacks (A)
 
