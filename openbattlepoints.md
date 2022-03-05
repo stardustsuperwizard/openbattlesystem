@@ -2,10 +2,10 @@
 How to build an unit for a squad.
 
 ## Base Unit
-|Attribute    | RC  | CC  | T   | HP  | CS  | M   | Point Cost |
-|:-:          |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  | :-:        |
-|Initial Value| 0   | 0   | 2+  | 1   | 0   | 0   | 1          |
-|Modifier Cost|00.25|00.50|01.00|03.00|01.00|00.25| -          |
+|Attribute    | RC     | CC     | T   | HP  | CS  | M   | Point Cost |
+|:-:          |:-:     |:-:     |:-:  |:-:  |:-:  |:-:  | :-:        |
+|Initial Value| 0      | 0      | 2+  | 1   | 0   | 0   | 1          |
+|Modifier Cost|Variable|Variable|01.00|03.00|01.00|00.25| -          |
 
 Unit is armed with up to 2 weapons.
 
@@ -20,12 +20,20 @@ Base Multiplier:
 
 ### Attributes
 #### Ranged Combat (RC)
-|Values     | 6+  | 5+  | 4+  | 3+  | 2+  |
-|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Values       | 6+   | 5+          | 4+        | 3+       | 2+  |
+|:-:          |:-:   |:-:          |:-:        |:-:       |:-:  |
+|Modifier Cost|00.25 |00.75        |01.50      |03.00     |00.00|
+|Formula      |+00.25|00.25 + 00.50|2 * 00.75  |2 * 01.50 |
 
 #### Close Combat (CC)
-|Values     | 6+  | 5+  | 4+  | 3+  | 2+  |
-|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Values       | 6+  | 5+  | 4+  | 3+  | 2+  |
+|:-:          |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Modifier Cost|00.50|01.00|02.50|05.00|00.00|
+
+|Values       | 6+   | 5+          | 4+           | 3+       | 2+  |
+|:-:          |:-:   |:-:          |:-:           |:-:       |:-:  |
+|Modifier Cost| 00.50|01.00        |02.50         |05.00     |00.00|
+|Formula      |+00.50|2 * 00.50    |01.00 + 01.50 |2 * 02.50 |
 
 #### Toughness (T)
 Minimum T is 2+
@@ -42,10 +50,10 @@ Highest value is a 2+
 00.25 for each additional inch.
 
 ## Weapons
-|Attribute     | Dst | A   | S   | SM  | Point Cost |
-|:-:           |:-:  |:-:  |:-:  |:-:  |:-:         |
-|Initial Value | 0   | 1   | 1   | 1   | 3          |
-|modifier Cost |00.25/6|01.25|01.50|Var| -          |
+|Attribute     | Dst | A   | S     | SM     | Point Cost |
+|:-:           |:-:  |:-:  |:-:    |:-:     |:-:         |
+|Initial Value | 0   | 1   | 1     | 1      | 3          |
+|modifier Cost |00.25/6|01.25|01.50|Variable| -          |
 
 ### Distance (Dst)
 Purchased in increments of 6"
