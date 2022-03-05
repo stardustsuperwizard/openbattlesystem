@@ -68,6 +68,11 @@ May be reduced to 0 for a return of 1 Point.
 ## Special Abilities
 ### Unit
 
+#### Deep Strike
+* Cost: 02.00
+* Stackable: No
+* Description: When a unit has this ability, it is able to setup in reserve and attempt to enter play via deep strike.
+
 #### Extra Weapon
 * Cost: 04.00
 * Stackable: Yes
@@ -78,12 +83,27 @@ May be reduced to 0 for a return of 1 Point.
 * Stackable: Yes
 * Descrption: For each point taken, add +1 to the Morale roll.
 
+#### Invincibility Save
+* Cost: Chart
+* Stackable: Yes
+* Description: Adds the ability to take a save in a situation where no save would be permitted.
+
+#### Mob Rule
+* Cost: 01.00
+* Stackable: No
+* Description: Unit is now a rally point. When a unit with the status of fallback comes within 2" of this unit and that unit also has "Mob Rule" the units will merge status will be "Normal"
+
+#### Rally to me
+* Cost: 01.00
+* Stackable: No
+* Description: Unit is now a rally point, when a friendly unit with the status of fallback comes within 6" of this unit, friendly unit will regroup in morale phase and will change status to normal. 
+
 #### Regeneration
-* Cost: See chart
+* Cost: Chart
 
 |Value         | 6+  | 5+  | 4+  | 3+  | 2+  |
 |:-:           |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Modifier Cost |02.00|03.00|05.00|10.00|20.00|
+|Modifier Cost |02.00|03.00|10.00|100.00|200.00|
 * Stackable: Yes
 * Description: When taken, unit is able to roll to regain lost HP at the start of turn during Morale phase. Roll a die for each HP lost. Upon successful roll, HP is regained. If unit is dead/destroyed, do not remove from game. Instead, perform this check first. 
 
@@ -92,20 +112,6 @@ May be reduced to 0 for a return of 1 Point.
 * Stackable: No
 * Description: When unit has status of fallback, unit will automatically regroup in Morale Phase.
 
-#### Deep Strike
-* Cost: 02.00
-* Stackable: No
-* Description: When a unit has this ability, it is able to setup in reserve and attempt to enter play via deep strike.
-
-#### Mob Rule
-* Cost: 01.00
-* Stackable: No
-* Description: Unit is now a rally point. Additionally, when a unit with the status of fallback comes within 2" of this unit and that unit also has "Mob Rule" the units will merge status will be "Normal"
-
-#### Rally to me
-* Cost: 01.00
-* Stackable: No
-* Description: Unit is now a rally point and when a friendly unit with the status of fallback comes within 6" of this unit, friendly unit will regroup in morale phase and will change status to normal.
 
 ### Weapons
 #### Burst Shot

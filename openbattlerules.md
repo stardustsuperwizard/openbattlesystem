@@ -8,6 +8,15 @@ The playing surface shall have a clearly defined boundary (also called “board 
 
 A boundary or “board edge” is considered a rally point. If a squad has a status of Fallback and reaches a board edge, the squad will stop movement and may choose to take a morale check. Upon successful completion of the morale check the squad status shall become Normal and the squad continue play as normal. Any remaining Fallback movement is forfeited.
 
+### Terrain
+The game board may have objects on it that represent battlefield terrain. terrain may have additional rules associated with it, but it is not required.
+
+### Difficult Terrain
+Any area designated as difficult terrain shall incur a penalty to Movement of half distance when a unit is moves through this area.
+
+### Cover Protection
+A unit that is partially obscured by a piece of terrain shall receive a bonus of +1 to the Combat Save or a value of 6 when no value is present.
+
 ## Models and Weapons
 ### Model
 A model is a single entity that exists in the tabletop. Models have the following profile stats:
