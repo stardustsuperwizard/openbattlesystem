@@ -67,6 +67,12 @@ May be reduced to 0 for a return of 1 Point.
 
 ## Special Abilities
 ### Unit
+
+#### Extra Weapon
+* Cost: 04.00
+* Stackable: Yes
+* Description: Adds additional weapon to unit profile.
+
 #### Inspirational
 * Cost: 01.00
 * Stackable: Yes
