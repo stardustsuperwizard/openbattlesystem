@@ -1,4 +1,4 @@
-# Basic Rules
+# Combat Rules
 ## Summary
 Baseline mechanics for building a table top warfare game played with dice in a turn based fashion.
 
