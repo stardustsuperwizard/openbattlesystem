@@ -1,4 +1,4 @@
-# Unit Creation
+# Characters and Gear
 How to build an unit for a squad.
 
 ## Base Unit
