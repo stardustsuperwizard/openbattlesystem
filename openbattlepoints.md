@@ -5,11 +5,12 @@ How to build an unit for a squad.
 |Attribute    | RC     | CC     | T   | HP  | CS  | M   | Point Cost |
 |:-:          |:-:     |:-:     |:-:  |:-:  |:-:  |:-:  | :-:        |
 |Initial Value| 0      | 0      | 2+  | 1   | 0   | 0   | 1          |
-|Modifier Cost|Variable|Variable|01.00|03.00|01.00|00.25| -          |
+|Modifier Cost|Variable|Variable|01.00|04.00|01.00|00.25| -          |
 
 Unit is armed with up to 2 weapons.
 
 Base Multiplier:
+
 |Base Cost    | 0 - 10 | 11 - 15 | 16+ |
 |:-:          |:-:     |:-:      |:-:  |
 |Value        | 1      | 1.5     | (cost * 0.1) |
@@ -39,6 +40,7 @@ Minimum HP is 1
 
 #### Combat Save (CS)
 Highest value is a 2+
+
 |Values     | 6+  | 5+  | 4+  | 3+  | 2+  |
 |:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
 
@@ -49,7 +51,7 @@ Highest value is a 2+
 |Attribute     | Dst | A   | S     | SM     | Point Cost |
 |:-:           |:-:  |:-:  |:-:    |:-:     |:-:         |
 |Initial Value | 0   | 1   | 1     | 1      | 3          |
-|modifier Cost |00.25/6|01.25|01.50|Variable| -          |
+|modifier Cost |00.25/6|04.00|01.50|Variable| -          |
 
 ### Distance (Dst)
 Purchased in increments of 6"
@@ -67,7 +69,8 @@ May be reduced to 0 for a return of 1 Point.
 
 |Values     | -1  | -2  | -3  | -4  | -5  |
 |:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Point Cost |01.00|02.50|06.25|16.00|40.00|           
+|Point Cost |01.00|02.50|06.25|16.00|40.00|         
+|Formula| 01.00|01.00 * 02.50|02.50 * 02.50|06.25 * 02.50|16.00 * 02.50
 
 ## Special Abilities
 ### Unit
