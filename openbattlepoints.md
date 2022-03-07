@@ -44,7 +44,7 @@ Formula:
 Point Cost = level<sup>2</sup>
 
 #### Movement (M)
-Formula: Point Cost = 1.05<sup>inches</sup> * 5
+Formula: Point Cost = 1.015<sup>inches</sup> + (previous inch cost)
 
 ## Armor
 ### Combat Save (CS)
