@@ -15,15 +15,17 @@ Unit is armed with up to 2 weapons.
 
 ### Attributes
 #### Ranged Combat (RC)
-|Values       | 6+   | 5+   | 4+   | 3+   | 2+  |
+|Level        | 1    | 2    | 3    | 4    | 5   |
 |:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
+|Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
 |Modifier Cost|01.50 |02.50 |04.00 |06.50 |10.00|
 
 Formula: 1.585<sup>level</sup>
 
 #### Close Combat (CC)
-|Values       | 6+   | 5+   | 4+   | 3+   | 2+  |
+|Level        | 1    | 2    | 3    | 4    | 5   |
 |:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
+|Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
 |Modifier Cost|02.00 |04.00 |07.00 |13.00 |25.00|
 
 Formula: 1.903<sup>level</sup>
@@ -37,14 +39,15 @@ Point Cost = ROUNDUP(1.2<sup>level</sup> + (Current Point Cost))
 Minimum HP is 1<br>
 Point Cost = level<sup>2</sup>
 
-#### Combat Save (CS)
+#### Movement (M)
+00.25 for each additional inch.
+
+## Armor
+### Combat Save (CS)
 Highest value is a 2+
 
 |Values     | 6+  | 5+  | 4+  | 3+  | 2+  |
 |:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
-
-#### Movement (M)
-00.25 for each additional inch.
 
 ## Weapons
 |Attribute     | Dst | A   | S     | SM     | Point Cost |
