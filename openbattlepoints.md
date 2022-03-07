@@ -9,28 +9,24 @@ How to build an unit for a squad.
 
 Unit is armed with up to 2 weapons.
 
-Base Multiplier:
-
-|Base Cost    | 0 - 10 | 11 - 15 | 16+ |
-|:-:          |:-:     |:-:      |:-:  |
-|Value        | 1      | 1.5     | (cost * 0.1) |
-
 ### Formulas
 #### Total Cost
-[ (Initial Cost = 1) + ( (sum of RC) + (sum of CC) + (sum of T) + (sum of HP) + (sum of CS) + (sum of M) ) ] * (Base Multipler)
+(Initial Cost of 1) + RC + CC + T + HP + (sum of M) )
 
 ### Attributes
 #### Ranged Combat (RC)
-|Values       | 6+   | 5+          | 4+        | 3+       | 2+  |
-|:-:          |:-:   |:-:          |:-:        |:-:       |:-:  |
-|Modifier Cost|00.25 |00.75        |01.50      |03.00     |00.00|
-|Formula      |+00.25|00.25 + 00.50|2 * 00.75  |2 * 01.50 |     |
+|Values       | 6+   | 5+   | 4+   | 3+   | 2+  |
+|:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
+|Modifier Cost|01.25 |01.50 |02.00 |02.50 |03.00|
+
+Formula: 1.25<sup>level</sup>
 
 #### Close Combat (CC)
-|Values       | 6+   | 5+          | 4+           | 3+       | 2+  |
-|:-:          |:-:   |:-:          |:-:           |:-:       |:-:  |
-|Modifier Cost| 00.50|01.00        |02.50         |05.00     |00.00|
-|Formula      |+00.50|2 * 00.50    |01.00 + 01.50 |2 * 02.50 |     |
+|Values       | 6+   | 5+   | 4+   | 3+   | 2+  |
+|:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
+|Modifier Cost|01.25 |01.50 |02.00 |02.50 |03.00|
+
+Formula: 1.25<sup>level</sup>
 
 #### Toughness (T)
 Minimum T is 2+
