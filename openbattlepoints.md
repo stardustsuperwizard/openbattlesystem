@@ -42,7 +42,7 @@ Point Cost = ROUNDUP(1.03<sup>Toughness Value</sup> + Toughness Value)
 #### Hit Points (HP)
 Minimum HP is 1<br>
 Formula:
-Point Cost = level<sup>2</sup>
+Point Cost = 1.15<sup>Wounds</sup> * Wounds
 
 #### Movement (M)
 Formula: Point Cost = 1.1<sup>inches</sup> + (inches)
