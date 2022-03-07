@@ -36,7 +36,7 @@ Point Cost = 1.903<sup>level</sup>
 Minimum T is 2+
 
 Formula:
-Point Cost = ROUNDUP(1.2<sup>level</sup> + (Current Point Cost))
+Point Cost = ROUNDUP(1.2<sup>level</sup> + (Current Point Cost)
 
 #### Hit Points (HP)
 Minimum HP is 1<br>
