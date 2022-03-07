@@ -35,8 +35,11 @@ Base Multiplier:
 #### Toughness (T)
 Minimum T is 2+
 
+Point Cost = ROUNDUP(1.2<sup>level</sup> + (Current Point Cost))
+
 #### Hit Points (HP)
-Minimum HP is 1
+Minimum HP is 1<br>
+Point Cost = level<sup>2</sup>
 
 #### Combat Save (CS)
 Highest value is a 2+
