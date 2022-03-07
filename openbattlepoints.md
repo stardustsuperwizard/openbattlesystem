@@ -36,7 +36,6 @@ Point Cost = 1.903<sup>level</sup>
 Minimum T is 2+
 
 Formula:
-=ROUNDUP(B3+A3,0)
 Point Cost = ROUNDUP(1.03<sup>Toughness Value</sup> + Toughness Value)
 
 #### Hit Points (HP)
