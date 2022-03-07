@@ -20,7 +20,8 @@ Unit is armed with up to 2 weapons.
 |Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
 |Modifier Cost|01.50 |02.50 |04.00 |06.50 |10.00|
 
-Formula: 1.585<sup>level</sup>
+Formula:
+Point Cost = 1.585<sup>level</sup>
 
 #### Close Combat (CC)
 |Level        | 1    | 2    | 3    | 4    | 5   |
@@ -28,15 +29,18 @@ Formula: 1.585<sup>level</sup>
 |Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
 |Modifier Cost|02.00 |04.00 |07.00 |13.00 |25.00|
 
-Formula: 1.903<sup>level</sup>
+Formula:
+Point Cost = 1.903<sup>level</sup>
 
 #### Toughness (T)
 Minimum T is 2+
 
+Formula:
 Point Cost = ROUNDUP(1.2<sup>level</sup> + (Current Point Cost))
 
 #### Hit Points (HP)
 Minimum HP is 1<br>
+Formula:
 Point Cost = level<sup>2</sup>
 
 #### Movement (M)
