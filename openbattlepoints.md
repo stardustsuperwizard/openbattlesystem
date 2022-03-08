@@ -53,22 +53,9 @@ Total Unit Narative Cost Formula: (Int + Tech + T + Dex + Per)
 ## Weapons
 |Attribute     | Dst   | A   | S   | SM     | Point Cost |
 |:-:           |:-:    |:-:  |:-:  |:-:     |:-:         |
-|Initial Value | 0     | 1   | 1   | 1      | 3          |
-|modifier Cost |00.25/6|04.00|01.50|Variable| -          |
 
-### Distance (Dst)
-Purchased in increments of 6"
-
-After more than 12" have been added that weapon may no longer be used in Close Combat.
-
-### Attacks (A)
-Cannot be reduced to 0.
-
-### Strength (S)
-May be reduced to 0 for a return of 1 Point.
-Formula: Post Cost = 1.45<sup>Strength</sup>
-
-### Save Modifier (SM)
+### Fixed Attributes
+#### Save Modifier (SM)
 May be reduced to 0 for a return of 1 Point.
 
 |Values     | -1  | -2  | -3  | -4  | -5  |
@@ -76,9 +63,20 @@ May be reduced to 0 for a return of 1 Point.
 |Point Cost |01.00|02.50|06.25|16.00|40.00|         
 |Formula| 01.00|01.00 * 02.50|02.50 * 02.50|06.25 * 02.50|16.00 * 02.50
 
+### Variable Attributes
+#### Distance (Dst)
+* Dst Cost = (inches * 00.25)/6
+* Purchased in increments of 6"
+* After more than 12" have been added that weapon may no longer be used in Close Combat.
+
+#### Attacks (A)
+Cannot be reduced to 0.
+
+#### Strength (S)
+Formula: Post Cost = 1.45<sup>Strength</sup>
+
 ## Special Abilities
 ### Unit
-
 #### Deep Strike
 * Cost: 02.00
 * Stackable: No
@@ -122,7 +120,6 @@ May be reduced to 0 for a return of 1 Point.
 * Cost: 01.00
 * Stackable: No
 * Description: When unit has status of fallback, unit will automatically regroup in Morale Phase.
-
 
 ### Weapons
 #### Burst Shot
