@@ -16,7 +16,7 @@ Total Unit Combat Cost = (RC + CC + T + HP + M + CS) * HP
 |Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
 
 ##### Ranged Combat (RC)
-Point Cost = 1.5<sup>RC Level</sup> - 1
+Point Cost = 1.50<sup>RC Level</sup> - 1
 
 ##### Close Combat (CC)
 Point Cost = 1.75<sup>CC Level</sup> - 1
@@ -32,7 +32,7 @@ Post Cost = 1.15<sup>Toughness</sup>
 Point Cost = 1.15<sup>Hit Points</sup> * Hit Points
 
 ##### Movement (M)
-Point Cost = 1.2<sup>inches</sup> - 1
+Point Cost = 1.20<sup>inches</sup> - 1
 
 ### Narative Profile
 | Intelligence (Int) | Technical (Tech) | Dexterity (Dex) | Perception (Per) |
@@ -51,17 +51,14 @@ Total Unit Narative Cost Formula: (Int + Tech + T + Dex + Per)
 
 
 ## Weapons
-|Attribute     | Dst   | A   | S   | SM     | Point Cost |
-|:-:           |:-:    |:-:  |:-:  |:-:     |:-:         |
+| Distance (Dst) | Attacks (A) | Strength (S) | Save Modifier (SM) |
+|:-:             |:-:          |:-:           |:-:                 |
 
 ### Fixed Attributes
 #### Save Modifier (SM)
-May be reduced to 0 for a return of 1 Point.
-
-|Values     | -1  | -2  | -3  | -4  | -5  |
-|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Point Cost |01.00|02.50|06.25|16.00|40.00|         
-|Formula| 01.00|01.00 * 02.50|02.50 * 02.50|06.25 * 02.50|16.00 * 02.50
+|Level  | 1   | 2   | 3   | 4   | 5   |
+|:-:    |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Values | -1  | -2  | -3  | -4  | -5  |
 
 ### Variable Attributes
 #### Distance (Dst)
@@ -110,9 +107,10 @@ Formula: Post Cost = 1.45<sup>Strength</sup>
 #### Regeneration
 * Cost: Chart
 
-|Value         | 6+  | 5+  | 4+  | 3+  | 2+  |
-|:-:           |:-:  |:-:  |:-:  |:-:  |:-:  |
-|Modifier Cost |02.00|03.00|10.00|100.00|200.00|
+|Level  | 1   | 2   | 3   | 4   | 5   |
+|:-:    |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Value  | 6+  | 5+  | 4+  | 3+  | 2+  |
+
 * Stackable: Yes
 * Description: When taken, unit is able to roll to regain lost HP at the start of turn during Morale phase. Roll a die for each HP lost. Upon successful roll, HP is regained. If unit is dead/destroyed, do not remove from game. Instead, perform this check first. 
 
