@@ -18,25 +18,17 @@ Unit is armed with up to 2 weapons.
 |Level        | 1    | 2    | 3    | 4    | 5   |
 |:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
 |Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
-|Modifier Cost|01.50 |02.50 |04.00 |06.50 |10.00|
-
-Formula:
-Point Cost = 1.585<sup>level</sup>
+|Modifier Cost|00.50 |01.00 |01.50 |02.50 |03.00|
 
 #### Close Combat (CC)
 |Level        | 1    | 2    | 3    | 4    | 5   |
 |:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
 |Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
-|Modifier Cost|02.00 |04.00 |07.00 |13.00 |25.00|
-
-Formula:
-Point Cost = 1.903<sup>level</sup>
+|Modifier Cost|01.00 |02.00 |03.00 |04.00 |05.00|
 
 #### Toughness (T)
 Minimum T is 2+
-
-Formula:
-Point Cost = ROUNDUP(1.03<sup>Toughness Value</sup> + Toughness Value)
+Formula: Post Cost = 1.25<sup>Toughness</sup>
 
 #### Hit Points (HP)
 Minimum HP is 1<br>
@@ -44,19 +36,21 @@ Formula:
 Point Cost = 1.15<sup>Wounds</sup> * Wounds
 
 #### Movement (M)
-Formula: Point Cost = 1.1<sup>inches</sup> + (inches)
+Formula: Point Cost = 0.25 * inches
 
 ## Armor
 ### Combat Save (CS)
 Highest value is a 2+
 
-|Values     | 6+  | 5+  | 4+  | 3+  | 2+  |
-|:-:        |:-:  |:-:  |:-:  |:-:  |:-:  |
+|Level        | 1    | 2    | 3    | 4    | 5   |
+|:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
+|Values       | 6+   | 5+   | 4+   | 3+   | 2+  |
+|Modifier Cost|01.00 |02.00 |03.00 |04.00 |05.00|
 
 ## Weapons
-|Attribute     | Dst | A   | S     | SM     | Point Cost |
-|:-:           |:-:  |:-:  |:-:    |:-:     |:-:         |
-|Initial Value | 0   | 1   | 1     | 1      | 3          |
+|Attribute     | Dst   | A   | S   | SM     | Point Cost |
+|:-:           |:-:    |:-:  |:-:  |:-:     |:-:         |
+|Initial Value | 0     | 1   | 1   | 1      | 3          |
 |modifier Cost |00.25/6|04.00|01.50|Variable| -          |
 
 ### Distance (Dst)
@@ -69,6 +63,7 @@ Cannot be reduced to 0.
 
 ### Strength (S)
 May be reduced to 0 for a return of 1 Point.
+Formula: Post Cost = 1.45<sup>Strength</sup>
 
 ### Save Modifier (SM)
 May be reduced to 0 for a return of 1 Point.
