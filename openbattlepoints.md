@@ -6,14 +6,13 @@ How to build an unit for a squad.
 | Ranged Combat (RC) | Close Combat (CC) | Toughness (T) | Hit Points (HP) | Movement (M) |
 |:-:                 |:-:                |:-:            |:-:              |:-:           |
 
-Unit is armed with up to 2 weapons.
-
-Total Unit Combat Cost = (RC + CC + T + HP + M + CS) * HP
+* Unit is armed with up to 2 weapons.
+* Total Unit Combat Cost = (RC + CC + T + HP + M + CS) * HP
 
 #### Fixed Combat Attributes
-|Level        | 1    | 2    | 3    | 4    | 5   |
-|:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
-|Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
+|Level | 1  | 2  | 3  | 4  | 5  |
+|:-:   |:-: |:-: |:-: |:-: |:-: |
+|Value | 6+ | 5+ | 4+ | 3+ | 2+ |
 
 ##### Ranged Combat (RC)
 Point Cost = 1.50<sup>RC Level</sup> - 1
@@ -38,7 +37,7 @@ Point Cost = 1.20<sup>inches</sup> - 1
 | Intelligence (Int) | Technical (Tech) | Dexterity (Dex) | Perception (Per) |
 |:-:                 |:-:               |:-:              |:-:               |
 
-Total Unit Narative Cost Formula: (Int + Tech + T + Dex + Per)
+Total Unit Narative Cost = (Int + Tech + Dex + Per)
 
 #### Narrative Attributes
 ##### Intelligence (Int)
