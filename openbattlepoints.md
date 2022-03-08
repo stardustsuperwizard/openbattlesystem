@@ -2,51 +2,53 @@
 How to build an unit for a squad.
 
 ## Base Unit
-### Initial Values
-|Attribute    | RC | CC | T   | HP  | M   | Point Cost |
-|:-:          |:-: |:-: |:-:  |:-:  |:-:  | :-:        |
-|Initial Value| 0  | 0  | 2+  | 1   | 0   | 1          |
+### Combat Profile
+| Ranged Combat (RC) | Close Combat (CC) | Toughness (T) | Hit Points (HP) | Movement (M) |
+|:-:                 |:-:                |:-:            |:-:              |:-:           |
 
 Unit is armed with up to 2 weapons.
 
-### Formulas
-#### Total Cost
-(RC + CC + T + HP + M + CS) * HP
+Total Unit Combat Cost Formula: (RC + CC + T + HP + M + CS) * HP
 
-### Attributes
-#### Ranged Combat (RC)
-Formula: Point Cost = 1.5<sup>RC Level</sup> - 1
+#### Fixed Combat Attributes
 |Level        | 1    | 2    | 3    | 4    | 5   |
 |:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
 |Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
 
-#### Close Combat (CC)
-Formula: Point Cost = 1.75<sup>CC Level</sup> - 1
-|Level        | 1    | 2    | 3    | 4    | 5   |
-|:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
-|Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
+##### Ranged Combat (RC)
+Point Cost = 1.5<sup>RC Level</sup> - 1
 
-#### Toughness (T)
-Minimum T is 2+
-Formula: Post Cost = 1.15<sup>Toughness</sup>
+##### Close Combat (CC)
+Point Cost = 1.75<sup>CC Level</sup> - 1
 
-#### Hit Points (HP)
-Minimum HP is 1<br>
-Formula:
+##### Combat Save (CS)
+Point Cost = Level * 1.75
+
+#### Variable Combat Attributes
+##### Toughness (T)
+Post Cost = 1.15<sup>Toughness</sup>
+
+##### Hit Points (HP)
 Point Cost = 1.15<sup>Hit Points</sup> * Hit Points
 
-#### Movement (M)
-Formula: Point Cost = 1.2<sup>inches</sup> - 1
+##### Movement (M)
+Point Cost = 1.2<sup>inches</sup> - 1
 
-#### Combat Save (CS)
-Highest value is a 2+
+### Narative Profile
+| Intelligence (Int) | Technical (Tech) | Dexterity (Dex) | Perception (Per) |
+|:-:                 |:-:               |:-:              |:-:               |
 
-|Level        | 1    | 2    | 3    | 4    | 5   |
-|:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
-|Values       | 6+   | 5+   | 4+   | 3+   | 2+  |
-|Modifier Cost|01.00 |02.00 |03.00 |04.00 |05.00|
+Total Unit Narative Cost Formula: (Int + Tech + T + Dex + Per)
 
-Formula: Point Cost = Level * 1.75
+#### Narrative Attributes
+##### Intelligence (Int)
+
+##### Technical (Tech)
+
+##### Dexterity (Dex)
+
+##### Perception (Per)
+
 
 ## Weapons
 |Attribute     | Dst   | A   | S   | SM     | Point Cost |
