@@ -15,29 +15,28 @@ How to build an unit for a squad.
 |Value | 6+ | 5+ | 4+ | 3+ | 2+ |
 
 ##### Ranged Combat (RC)
-Point Cost = 1.50<sup>RC Level</sup> - 1
+* Point Cost = 1.50<sup>RC Level</sup> - 1
 
 ##### Close Combat (CC)
-Point Cost = 1.75<sup>CC Level</sup> - 1
+* Point Cost = 1.75<sup>CC Level</sup> - 1
 
 ##### Combat Save (CS)
-Point Cost = Level * 1.75
+* Point Cost = Level * 1.75
 
 #### Variable Combat Attributes
 ##### Toughness (T)
-Post Cost = 1.15<sup>Toughness</sup>
+* Post Cost = 1.15<sup>Toughness</sup>
 
 ##### Hit Points (HP)
-Point Cost = 1.15<sup>Hit Points</sup> * Hit Points
+* Point Cost = 1.15<sup>Hit Points</sup> * Hit Points
 
 ##### Movement (M)
-Point Cost = 1.20<sup>inches</sup> - 1
+* Point Cost = 1.20<sup>inches</sup> - 1
 
 ### Narative Profile
 | Intelligence (Int) | Technical (Tech) | Dexterity (Dex) | Perception (Per) |
 |:-:                 |:-:               |:-:              |:-:               |
-
-Total Unit Narative Cost = (Int + Tech + Dex + Per)
+* Total Unit Narative Cost = (Int + Tech + Dex + Per)
 
 #### Narrative Attributes
 ##### Intelligence (Int)
@@ -66,10 +65,10 @@ Total Unit Narative Cost = (Int + Tech + Dex + Per)
 * After more than 12" have been added that weapon may no longer be used in Close Combat.
 
 #### Attacks (A)
-Cannot be reduced to 0.
+* Cannot be reduced to 0.
 
 #### Strength (S)
-Formula: Post Cost = 1.45<sup>Strength</sup>
+* Post Cost = 1.45<sup>Strength</sup>
 
 ## Special Abilities
 ### Unit
