@@ -47,6 +47,7 @@ Highest value is a 2+
 |:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
 |Values       | 6+   | 5+   | 4+   | 3+   | 2+  |
 |Modifier Cost|01.00 |02.00 |03.00 |04.00 |05.00|
+
 Formula: Point Cost = Level * 1.75
 
 ## Weapons
