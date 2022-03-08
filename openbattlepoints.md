@@ -19,14 +19,12 @@ Formula: Point Cost = 1.5<sup>RC Level</sup> - 1
 |Level        | 1    | 2    | 3    | 4    | 5   |
 |:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
 |Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
-|Modifier Cost|00.50 |01.00 |01.50 |02.50 |03.00|
 
 #### Close Combat (CC)
 Formula: Point Cost = 1.75<sup>CC Level</sup> - 1
 |Level        | 1    | 2    | 3    | 4    | 5   |
 |:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
 |Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
-|Modifier Cost|01.00 |02.00 |03.00 |04.00 |05.00|
 
 #### Toughness (T)
 Minimum T is 2+
