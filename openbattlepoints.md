@@ -11,16 +11,18 @@ Unit is armed with up to 2 weapons.
 
 ### Formulas
 #### Total Cost
-(Initial Cost of 1) + RC + CC + T + HP + (sum of M) )
+(RC + CC + T + HP + M + CS) * HP
 
 ### Attributes
 #### Ranged Combat (RC)
+Formula: Point Cost = 1.5<sup>RC Level</sup> - 1
 |Level        | 1    | 2    | 3    | 4    | 5   |
 |:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
 |Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
 |Modifier Cost|00.50 |01.00 |01.50 |02.50 |03.00|
 
 #### Close Combat (CC)
+Formula: Point Cost = 1.75<sup>CC Level</sup> - 1
 |Level        | 1    | 2    | 3    | 4    | 5   |
 |:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
 |Value        | 6+   | 5+   | 4+   | 3+   | 2+  |
@@ -28,24 +30,24 @@ Unit is armed with up to 2 weapons.
 
 #### Toughness (T)
 Minimum T is 2+
-Formula: Post Cost = 1.25<sup>Toughness</sup>
+Formula: Post Cost = 1.15<sup>Toughness</sup>
 
 #### Hit Points (HP)
 Minimum HP is 1<br>
 Formula:
-Point Cost = 1.15<sup>Wounds</sup> * Wounds
+Point Cost = 1.15<sup>Hit Points</sup> * Hit Points
 
 #### Movement (M)
-Formula: Point Cost = 0.25 * inches
+Formula: Point Cost = 1.2<sup>inches</sup> - 1
 
-## Armor
-### Combat Save (CS)
+#### Combat Save (CS)
 Highest value is a 2+
 
 |Level        | 1    | 2    | 3    | 4    | 5   |
 |:-:          |:-:   |:-:   |:-:   |:-:   |:-:  |
 |Values       | 6+   | 5+   | 4+   | 3+   | 2+  |
 |Modifier Cost|01.00 |02.00 |03.00 |04.00 |05.00|
+Formula: Point Cost = Level * 1.75
 
 ## Weapons
 |Attribute     | Dst   | A   | S   | SM     | Point Cost |
