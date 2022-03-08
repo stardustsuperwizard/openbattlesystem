@@ -8,7 +8,7 @@ How to build an unit for a squad.
 
 Unit is armed with up to 2 weapons.
 
-Total Unit Combat Cost Formula: (RC + CC + T + HP + M + CS) * HP
+Total Unit Combat Cost = (RC + CC + T + HP + M + CS) * HP
 
 #### Fixed Combat Attributes
 |Level        | 1    | 2    | 3    | 4    | 5   |
