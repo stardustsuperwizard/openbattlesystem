@@ -94,6 +94,7 @@ How to build an unit for a squad.
 |19              |4.75            |2215.00      |139           |-                   |
 |20              |5.00            |3325.00      |162           |-                   |
 
+Total Unit Weapon Cost = (Dst + A + S + SM) * S
 
 ### Fixed Attributes
 #### Save Modifier (SM)
