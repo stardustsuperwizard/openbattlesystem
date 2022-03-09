@@ -1,5 +1,5 @@
 # Battle Gear
-## Weapons
+## Base Weapon
 |Attribute Level | Distance (Dst) | Attacks (A) | Strength (S) | Save Modifier (SM) |
 |:-:             |:-:             |:-:          |:-:           |:-:                 |
 |                | ((Dst * 6) * 0.25)/6 | (1.5<sup>Attacks</sup>) - 1 | 1.11<sup>Strength</sup> * Strength | 1.25<sup>Save Mod</sup> - 1 |
