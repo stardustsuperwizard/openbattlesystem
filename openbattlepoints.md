@@ -72,7 +72,7 @@ How to build an unit for a squad.
 ## Weapons
 |Attribute Level | Distance (Dst) | Attacks (A) | Strength (S) | Save Modifier (SM) |
 |:-:             |:-:             |:-:          |:-:           |:-:                 |
-|                |-               |-            |-             |                    |
+|                | ((Dst * 6) * 0.25)/6 | (1.5<sup>Attacks</sup>) - 1 | 1.11<sup>Strength</sup> * Strength | 1.25<sup>Save Mod</sup> - 1 |
 |1               |0.25            |0.50         |2             |0.25                |
 |2               |0.50            |1.25         |3             |0.50                |
 |3               |0.75            |2.25         |5             |1.00                |
