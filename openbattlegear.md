@@ -24,7 +24,7 @@
 |19              |4.75            |2215.00      |139           |-                   |
 |20              |5.00            |3325.00      |162           |-                   |
 
-Total Unit Weapon Cost = (Dst + A + S + SM) * S
+Total Unit Weapon Cost = (Dst + A + S + SM) * A
 
 ### Fixed Attributes
 #### Save Modifier (SM)
