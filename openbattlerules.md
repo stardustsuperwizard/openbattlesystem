@@ -80,7 +80,6 @@ Squad must use Fallback move to move towards the nearest Rally Point and may not
  
  In addition the following restrictions apply to the squad:
 
-* Squad may not use ranged combat.
 * Squad may not Assault.
 * Squad may not use Counter Offensive in close combat.
 
