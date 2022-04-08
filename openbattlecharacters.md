@@ -27,8 +27,7 @@ How to build an unit for a squad.
 |19 |-     |-      |-     | 14.25 |70.00| 14.25 | 31.00 |
 |20 |-     |-      |-     | 16.25 |85.00| 16.25 | 37.25 |
 
-* Total Unit Combat Cost = (RC + CC + T + HP + M + CS) * HP
-* Unit is armed with up to 2 weapons.
+* Total Unit Combat Cost = (RC + CC + CS + PT + MT + HP + M) * (HP * 0.5)
 
 #### Fixed Combat Attributes
 |Level | 1  | 2  | 3  | 4  | 5  |
