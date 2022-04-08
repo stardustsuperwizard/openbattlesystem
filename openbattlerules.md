@@ -23,9 +23,11 @@ A model is a single entity that exists in the tabletop. Models have the followin
 
 * Ranged Combat (RC)
 * Close Combat (CC)
-* Toughness (T)
+* Physical Toughnes (PT)
+* Mental Toughness (MT)
 * Hit Points (HP)
 * Combat Save (CS)
+* Movement (MV)
 
 ### Weapons
 Weapons are tools and abilities used by models to perform combat actions against other models. Weapons have the following profile stats:
@@ -70,34 +72,24 @@ The squad has no changes to normal rules.
 #### Advance
 The squad may select one option:
 
-* May make an advance move towards an enemy unit, to start Close Combat. The unit’s movement results in one enemy model and one friendly model making physical contact, a new round of close combat is initiated. Additionally, if this defending unit has a status of “Fallback” the attacking unit make attempt to remove defending unit from the game.
-* Form a pool of D6, 1 for each Hit Point in the defending unit.
-* Attacker rolls dice from the pool and for each roll of a 6, one hit point is removed from the defending unit. No “to save” roll is permitted.
-* May make an advance move to anywhere else on the board. 
+* May make an advance move towards an enemy unit, to start Close Combat. If the unit’s movement results in one enemy model and one friendly model making physical contact, a new round of close combat is initiated. Additionally, if this defending unit has a status of “Fallback” the attacking unit make attempt to remove defending unit from the game:
+    * Form a pool of D6, 1 for each Hit Point in the defending unit.
+    * Attacker rolls dice from the pool and for each roll of a 6, one hit point is removed from the defending unit. No “to save” roll is permitted.
+    * May make an advance move to anywhere else on the board. 
   
 #### Fallback
 Squad must use Fallback move to move towards the nearest Rally Point and may not take a Standard Move in Movement Phase.
  
- In addition the following restrictions apply to the squad:
-
+In addition the following restrictions apply to the squad:
 * Squad may not Assault.
 * Squad may not use Counter Offensive in close combat.
 
 ### Morale
 #### Morale Check
-A morale check is conducted by rolling a D6 and comparing against a morale save. The result of the roll must be greater than or equal to the Morale Save value. 
+A morale check is conducted by rolling a D6 and comparing the result against the Mental Toughness attribute. A successful result is when the die roll is less than or equal to the Mental Toughness value, plus or minus any modifiers. 
 
-#### Morale Check Values
-The morale save value for a squad starts at a 3 and will change based on the percentage of total hit points remaining in the squad vs the starting amount of hit points in the squad:
-* 75% of starting HP: 4
-* 50% of starting HP: 5
-* 25% of starting HP: 6
-
-#### Morale Check Points
-A morale check will be required for a squad when it has sustained the following hit point losses over the course of a game:
-* 25% or greater loss of total hit points
-* 50% or greater loss of total hit points
-* 75% or greater loss of total hit points and after every loss of hit points there after.
+#### Ranged Combat Morale Check
+After a squad has lost wounds to Ranged Combat a morale check is required. There is a modifier to the die roll of +1 for each Hit Point lost from the squad.
 
 #### Rally Point
 When a squad with the status of fallback comes into contact with a rally point (such as a board edge), the squad will be permitted to take a morale check to remove the status of Fallback. The squad may make this morale check even if they have already taken and failed a morale check.
@@ -134,7 +126,7 @@ Morale checks are required for a squad for any of the following reasons:
 
 If any of the current players units are in the status of fallback, they may opt to take a Morale Check at this time to regroup.
   * Success: If the unit passes their morale check, squad status will be changed to normal the squad may continue on with the rest of the turn. 
-  * Failure: If the unit has failed their morale check, then the squad statis will remain the same and will act according to the rules of the squad status.
+  * Failure: If the unit has failed their morale check, then the squad status will remain the same and will act according to the rules of the squad status.
 
 ## Movement Phase
 Each unit on the board makes a standard movement, plus or minus any modifiers.
@@ -142,14 +134,14 @@ Each unit on the board makes a standard movement, plus or minus any modifiers.
 ## Combat Phase
 ### Combat Sequence
 #### Summary
-Regardless of which combat method is chosen, the sequence is the same. Roll a number of “to hit” dice equal to the weapon attack profile against the attacker’s appropriate combat profile, plus or minus any modifiers. The successful rolls become the attacker’s “to wound” pool which is which is rolled against the defender’s toughness profile, plus or minus any modifiers from the weapons strength profile or special abilities. Lastly, the attacker’s successful  “to wound” rolls becomes the defender’s “to save” pool. The defender rolls the pool against the defending unit’s Armor Save profile, plus or minus any modifiers from the attacker’s weapon’s Armor Penetration profile and/or special rules. Any failed rolls by the defender results in that unit taking a wound for each failed “to save” roll.
+Regardless of which combat method is chosen, the sequence is the same. Roll the number of “to hit” dice equal to the weapon attack profile against the attacker’s appropriate combat profile, plus or minus any modifiers. The successful rolls become the attacker’s “to wound” pool which is which is rolled against the defender’s toughness profile, plus or minus any modifiers from the weapons strength profile or special abilities. Lastly, the attacker’s successful  “to wound” rolls becomes the defender’s “to save” pool. The defender rolls the pool against the defending unit’s Armor Save profile, plus or minus any modifiers from the attacker’s weapon’s Armor Penetration profile and/or special rules. Any failed rolls by the defender results in that unit taking a wound for each failed “to save” roll.
 
 #### To Hit Rolls
-Attacking unit selects a defending unit. Attacker rolls the number of D6 equal to the number of Attacks (ATT) in the weapon profile against the defending units combat score, ranged combat (RC) for shooting and close combat for melee. The unit must meet or beat the combat score (plus or minus any modifiers) with each D6. 
+Attacking unit selects a defending unit. Attacker rolls the number of D6 equal to the number of Attacks (A) in the weapon profile against the unit's combat attribute, ranged combat (RC) for shooting and close combat (CC) for melee. The unit must meet or beat the combat score (plus or minus any modifiers) with each D6. 
 #### To Wound Rolls
-All successful "to hit" rolls become the pool for "to wound" rolls. Wound rolls are based on the attacker rolling against the defenders Toughness (T) applying any modifiers from the weapon’s strength and special abilities, if any.
+All successful "to hit" rolls become the pool for "to wound" rolls. To Wound rolls are based on the attacker rolling against the defenders Physical Toughness (PT) applying any modifiers from the weapon’s strength and special abilities, if any.
 #### To Save Rolls
-All successful "to wound" rolls becomes the defenders pool for "Armor Save" rolls. The defender rolls the dice in the pool against their Armor Save (AS) value, applying any modifiers from the weapon’s Armor Penetration (AP) and special abilities, if any.
+All successful "to wound" rolls becomes the defenders pool for "Combat Save" rolls. The defender rolls the dice in the pool against their Combat Save (AS) value, applying any modifiers from the weapon’s Save Modifier (SM) and special abilities, if any.
 
 ### Ranged Combat
 #### Line of Sight
@@ -170,23 +162,23 @@ The at least 1 unit from the defending squad must be within the length of one at
 * Defender makes “to save” rolls
 
 #### Defender checks morale
-If the defending squad has suffered Hit Point lose,  it may be required to take a morale check.
+If the defending squad lost 1 or more Hit Points, it may be required to take a morale check.
 
 ### Close Combat
 #### Declaring Close Combat Assault
-If the length between the attacking squad and the defending squad is less than or equal to the length of the attackers Assault Movement value, then the attacker squad may initiate close combat with an enemy squad, now the defending squad. 
+If the length between the attacking squad and the defending squad is less than or equal to the length of the attackers Assault Movement value, then the attacking squad may initiate close combat with an enemy squad, now the defending squad. 
 
 In order to successfully initiate close combat and create a combat scrum with the defending squad, at least 1 attacking squad model must touch at least 1 defending squad model.
 
 So long as at least one attacker and one defender from each squad are touching, all squad models are considered to be in the combat scrum and engaged in close combat.
 
 #### Defender Counter Offensive
-Before attacking player moves the attacking squad into defending squad, the defending squad is allowed to make a ranged combat attack with units in the squad that have a ranged combat score.
+Before attacking player moves the attacking squad into the defending squad, the defending squad is allowed to make a ranged combat attack with units in the squad that have a ranged combat score.
 
-Any weapon with a distance value is eligible to be used, the defender does not need to check distance. If a weapon is used for ranged combat it may not also be used in Close Combat. Resolve normal Ranged Combat Phase, then attacker may continue to assault move. If the attacking player ends this section with a status of fallback, the close combat is cancelled.
+Any weapon with a distance value is eligible to be used, the defender does not need to check distance. If a weapon is used for ranged combat it may not also be used in Close Combat. Resolve a normal Ranged Combat Phase, if the attacking player ends this section with a status of fallback, the close combat is cancelled. Otherwise the attacker will continue the assault move.
 
 #### Assault Move
- Attacking player will now move the attacking squad towards the defending squad creating the combat scrum. Move each squad model up to the maximum assault distance attempting to touch 1 or more defender models.
+Attacking player will now move the attacking squad towards the defending squad creating the combat scrum. Move each squad model up to the maximum assault distance attempting to touch 1 or more defender models.
 
 #### Determine order of play
 After the attacking unit is engaged with the defending unit, order of play is determined.
