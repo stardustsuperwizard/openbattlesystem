@@ -1,4 +1,4 @@
-# Battle Characters
+# Battle Units
 How to build an unit for a squad.
 
 ## Base Unit
